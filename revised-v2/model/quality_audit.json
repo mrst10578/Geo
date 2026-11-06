@@ -5,17 +5,60 @@
   "criteria": [
     "lithology",
     "fault distance",
+    "drainage distance",
     "slope",
+    "lineament distance",
+    "intersection distance",
     "elevation"
   ],
   "weights": [
-    0.5,
+    0.25,
+    0.1,
+    0.1,
+    0.1,
     0.2,
     0.2,
-    0.1
+    0.05
   ],
-  "status": "Exploratory four-factor model, not a validated seven-factor result",
+  "status": "Exploratory seven-criterion scenario. Interpreted topographic lineaments and intersections are not validated fractures.",
   "raster_statistics": {
+    "baseline_classes": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.0,
+      "max": 5.0,
+      "counts": {
+        "1": 5145,
+        "2": 57413,
+        "3": 44678,
+        "4": 99528,
+        "5": 48520
+      }
+    },
+    "baseline_index": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.2000000476837158,
+      "max": 4.900000095367432
+    },
     "dem_projected": {
       "width": 527,
       "height": 538,
@@ -30,6 +73,36 @@
       "valid_cells": 283526,
       "min": 702.8486328125,
       "max": 1919.012939453125
+    },
+    "drainage_cells": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 2143,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "drainage_distance": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 0.0,
+      "max": 6906.25830078125
     },
     "elevation": {
       "width": 527,
@@ -76,6 +149,81 @@
       "min": 0.0,
       "max": 5704.73486328125
     },
+    "index_difference": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": -1.9000000953674316,
+      "max": 1.149999737739563
+    },
+    "intersection_cells": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 3,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "intersection_distance": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 0.0,
+      "max": 18180.322265625
+    },
+    "lineament_cells": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 1254,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "lineament_distance": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 0.0,
+      "max": 6560.74658203125
+    },
     "lithology_id": {
       "width": 527,
       "height": 538,
@@ -100,6 +248,21 @@
         "7": 33393
       }
     },
+    "rating_drainage": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 1.0,
+      "max": 5.0
+    },
     "rating_elevation": {
       "width": 527,
       "height": 538,
@@ -116,6 +279,36 @@
       "max": 4.0
     },
     "rating_fault": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rating_intersection": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rating_lineament": {
       "width": 527,
       "height": 538,
       "transform": [
@@ -175,11 +368,11 @@
       "min": 1.0,
       "max": 5.0,
       "counts": {
-        "1": 5145,
-        "2": 57413,
-        "3": 44678,
-        "4": 99528,
-        "5": 48520
+        "1": 13865,
+        "2": 81898,
+        "3": 141180,
+        "4": 18305,
+        "5": 36
       }
     },
     "screening_index": {
@@ -194,8 +387,8 @@
         -30.0
       ],
       "valid_cells": 255284,
-      "min": 1.2000000476837158,
-      "max": 4.900000095367432
+      "min": 1.100000023841858,
+      "max": 4.450000286102295
     },
     "slope": {
       "width": 527,
@@ -211,6 +404,21 @@
       "valid_cells": 255284,
       "min": 0.007529733702540398,
       "max": 69.48857116699219
+    },
+    "weighted_partial": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 0.949999988079071,
+      "max": 4.300000190734863
     }
   },
   "Litologh": {
@@ -234,5 +442,38 @@
       "Id"
     ]
   },
-  "mask_area_km2": 229.75781705337218
+  "mask_area_km2": 229.75781705337218,
+  "interpreted_vectors": {
+    "drainage": {
+      "count": 14,
+      "unique_geometries": 14
+    },
+    "lineaments": {
+      "count": 10,
+      "unique_geometries": 10
+    },
+    "intersections": {
+      "count": 3,
+      "unique_geometries": 3
+    }
+  },
+  "comparison": {
+    "valid_cells": 255284,
+    "different_class_cells": 179674,
+    "different_class_percent": 70.38200592281537,
+    "mean_absolute_class_change": 0.9121214151382446
+  },
+  "georeferencing": {
+    "method": "first order affine four graticule controls",
+    "source_datum": "assumed WGS84; original map datum not independently verified",
+    "control_fit_rmse_m": 76.502381725557,
+    "control_residuals_m": [
+      76.53324548077849,
+      76.55551995843999,
+      76.44924361324858,
+      76.47146846873885
+    ],
+    "independent_check_points": 0,
+    "accuracy_warning": "Fit residual is not independent positional accuracy. Overlay consistency inspected against supplied polygons."
+  }
 }

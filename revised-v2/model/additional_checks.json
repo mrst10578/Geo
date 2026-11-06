@@ -1,0 +1,52 @@
+{
+  "drainage": {
+    "features": 14,
+    "outside_mask": 0,
+    "trace_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "lineaments": {
+    "features": 10,
+    "outside_mask": 0,
+    "trace_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "intersections": {
+    "features": 3,
+    "outside_mask": 0,
+    "trace_ids": [],
+    "endpoint_only_crossings": 0
+  },
+  "model_algorithms": 33,
+  "providers": [
+    "gdal",
+    "native"
+  ],
+  "relocated_valid_layers": 26,
+  "layouts": 16,
+  "absolute_workspace_paths_in_project": 0
+}
