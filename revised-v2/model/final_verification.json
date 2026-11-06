@@ -1,0 +1,465 @@
+{
+  "verified_at_utc": "2026-11-06T22:23:29.157827+00:00",
+  "software": "QGIS 3.40.6-Bratislava",
+  "core_model_algorithms": 33,
+  "core_rasters_reproduced": 25,
+  "all_core_cells_and_grids_equal": true,
+  "core_checks": [
+    {
+      "file": "baseline_classes.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "baseline_index.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "dem_projected.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "drainage_cells.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "drainage_distance.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "elevation.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "fault_cells.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "fault_distance.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "index_difference.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "intersection_cells.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "intersection_distance.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "lineament_cells.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "lineament_distance.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "lithology_id.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_drainage.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_elevation.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_fault.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_intersection.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_lineament.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_lithology.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_slope.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "screening_classes.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "screening_index.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "slope.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "weighted_partial.tif",
+      "same_grid": true,
+      "equal_cells": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "sensitivity_variants": 14,
+  "all_sensitivity_cells_equal": true,
+  "sensitivity_checks": [
+    {
+      "criterion": "lithology",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "lithology",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "fault",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "fault",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "drainage",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "drainage",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "slope",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "slope",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "lineament",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "lineament",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "intersection",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "intersection",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "elevation",
+      "delta": -0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    },
+    {
+      "criterion": "elevation",
+      "delta": 0.2,
+      "outputs": [
+        {
+          "target": "index",
+          "equal_cells": true,
+          "matching_outputs": [
+            "___"
+          ]
+        },
+        {
+          "target": "classes",
+          "equal_cells": true,
+          "matching_outputs": [
+            "____"
+          ]
+        }
+      ]
+    }
+  ],
+  "project_layers": 27,
+  "invalid_project_layers": [],
+  "project_layouts": 17,
+  "valid_index_cells": 255284,
+  "index_range": [
+    1.100000023841858,
+    4.450000286102295
+  ],
+  "report_pages": 15,
+  "guide_pages": 7,
+  "map_count": 17,
+  "pdf_visual_review_complete": true,
+  "pdf_text_matches_standalone_copies": true,
+  "word_fonts": [
+    "Mikhak Regular",
+    "Mikhak Medium",
+    "Mikhak SemiBold",
+    "Mikhak Bold"
+  ],
+  "orphan_auxiliary_metadata_removed": 17,
+  "private_source_data_published": false,
+  "scientific_status": "Exploratory spatial comparison; no independent well or spring validation."
+}
