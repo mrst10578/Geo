@@ -1,0 +1,334 @@
+{
+  "method": "one-at-a-time relative +/-20 percent followed by normalization; unchanged ratings, grid and class thresholds",
+  "variants": [
+    {
+      "criterion": "lithology",
+      "label": "لیتولوژی",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.25,
+      "normalized_selected_weight": 0.2105263157894737,
+      "changed_class_percent": 13.792873818962411,
+      "high_or_very_high_percent": 5.684649253380549,
+      "min_index": 1.1052632331848145,
+      "max_index": 4.473684787750244
+    },
+    {
+      "criterion": "lithology",
+      "label": "لیتولوژی",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.25,
+      "normalized_selected_weight": 0.2857142857142857,
+      "changed_class_percent": 5.187555820184579,
+      "high_or_very_high_percent": 7.4654110715908555,
+      "min_index": 1.0952380895614624,
+      "max_index": 4.428571701049805
+    },
+    {
+      "criterion": "fault",
+      "label": "فاصله گسل",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.1,
+      "normalized_selected_weight": 0.08163265306122451,
+      "changed_class_percent": 2.1901098384544273,
+      "high_or_very_high_percent": 6.397189013020793,
+      "min_index": 1.1020408868789673,
+      "max_index": 4.438776016235352
+    },
+    {
+      "criterion": "fault",
+      "label": "فاصله گسل",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.1,
+      "normalized_selected_weight": 0.11764705882352941,
+      "changed_class_percent": 4.348490308832516,
+      "high_or_very_high_percent": 6.6933297817332855,
+      "min_index": 1.0980392694473267,
+      "max_index": 4.460784435272217
+    },
+    {
+      "criterion": "drainage",
+      "label": "فاصله آبراهه",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.1,
+      "normalized_selected_weight": 0.08163265306122451,
+      "changed_class_percent": 2.422008429827173,
+      "high_or_very_high_percent": 6.609501574716786,
+      "min_index": 1.1020408868789673,
+      "max_index": 4.479592323303223
+    },
+    {
+      "criterion": "drainage",
+      "label": "فاصله آبراهه",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.1,
+      "normalized_selected_weight": 0.11764705882352941,
+      "changed_class_percent": 4.116983438053305,
+      "high_or_very_high_percent": 6.481017220037291,
+      "min_index": 1.0980392694473267,
+      "max_index": 4.421568870544434
+    },
+    {
+      "criterion": "slope",
+      "label": "شیب",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.1,
+      "normalized_selected_weight": 0.08163265306122451,
+      "changed_class_percent": 6.016044875511195,
+      "high_or_very_high_percent": 6.233841525516679,
+      "min_index": 1.1020408868789673,
+      "max_index": 4.438776016235352
+    },
+    {
+      "criterion": "slope",
+      "label": "شیب",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.1,
+      "normalized_selected_weight": 0.11764705882352941,
+      "changed_class_percent": 1.139515206593441,
+      "high_or_very_high_percent": 6.856677269237399,
+      "min_index": 1.0980392694473267,
+      "max_index": 4.460784435272217
+    },
+    {
+      "criterion": "lineament",
+      "label": "فاصله خطواره",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.2,
+      "normalized_selected_weight": 0.1666666666666667,
+      "changed_class_percent": 4.040597922313972,
+      "high_or_very_high_percent": 6.10731577380486,
+      "min_index": 1.1041667461395264,
+      "max_index": 4.427083969116211
+    },
+    {
+      "criterion": "lineament",
+      "label": "فاصله خطواره",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.2,
+      "normalized_selected_weight": 0.23076923076923075,
+      "changed_class_percent": 5.276084674323498,
+      "high_or_very_high_percent": 6.971059682549631,
+      "min_index": 1.0961538553237915,
+      "max_index": 4.47115421295166
+    },
+    {
+      "criterion": "intersection",
+      "label": "فاصله تقاطع",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.2,
+      "normalized_selected_weight": 0.1666666666666667,
+      "changed_class_percent": 4.7609720938249165,
+      "high_or_very_high_percent": 8.133294683568105,
+      "min_index": 1.1041667461395264,
+      "max_index": 4.427083969116211
+    },
+    {
+      "criterion": "intersection",
+      "label": "فاصله تقاطع",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.2,
+      "normalized_selected_weight": 0.23076923076923075,
+      "changed_class_percent": 8.738894721173281,
+      "high_or_very_high_percent": 5.230253364879898,
+      "min_index": 1.0961538553237915,
+      "max_index": 4.47115421295166
+    },
+    {
+      "criterion": "elevation",
+      "label": "ارتفاع",
+      "relative_weight_change": -0.2,
+      "original_weight": 0.05,
+      "normalized_selected_weight": 0.040404040404040414,
+      "changed_class_percent": 4.018661569076009,
+      "high_or_very_high_percent": 7.320082731389355,
+      "min_index": 1.080808162689209,
+      "max_index": 4.464646339416504
+    },
+    {
+      "criterion": "elevation",
+      "label": "ارتفاع",
+      "relative_weight_change": 0.2,
+      "original_weight": 0.05,
+      "normalized_selected_weight": 0.0594059405940594,
+      "changed_class_percent": 2.5199385782109336,
+      "high_or_very_high_percent": 5.770436063364723,
+      "min_index": 1.118811845779419,
+      "max_index": 4.435644149780273
+    }
+  ],
+  "normalized_weights": [
+    {
+      "variant": "lithology_minus20",
+      "weights": {
+        "lithology": 0.2105263157894737,
+        "fault": 0.10526315789473685,
+        "drainage": 0.10526315789473685,
+        "slope": 0.10526315789473685,
+        "lineament": 0.2105263157894737,
+        "intersection": 0.2105263157894737,
+        "elevation": 0.052631578947368425
+      }
+    },
+    {
+      "variant": "lithology_plus20",
+      "weights": {
+        "lithology": 0.2857142857142857,
+        "fault": 0.09523809523809523,
+        "drainage": 0.09523809523809523,
+        "slope": 0.09523809523809523,
+        "lineament": 0.19047619047619047,
+        "intersection": 0.19047619047619047,
+        "elevation": 0.047619047619047616
+      }
+    },
+    {
+      "variant": "fault_minus20",
+      "weights": {
+        "lithology": 0.25510204081632654,
+        "fault": 0.08163265306122451,
+        "drainage": 0.10204081632653061,
+        "slope": 0.10204081632653061,
+        "lineament": 0.20408163265306123,
+        "intersection": 0.20408163265306123,
+        "elevation": 0.05102040816326531
+      }
+    },
+    {
+      "variant": "fault_plus20",
+      "weights": {
+        "lithology": 0.24509803921568626,
+        "fault": 0.11764705882352941,
+        "drainage": 0.09803921568627451,
+        "slope": 0.09803921568627451,
+        "lineament": 0.19607843137254902,
+        "intersection": 0.19607843137254902,
+        "elevation": 0.049019607843137254
+      }
+    },
+    {
+      "variant": "drainage_minus20",
+      "weights": {
+        "lithology": 0.25510204081632654,
+        "fault": 0.10204081632653061,
+        "drainage": 0.08163265306122451,
+        "slope": 0.10204081632653061,
+        "lineament": 0.20408163265306123,
+        "intersection": 0.20408163265306123,
+        "elevation": 0.05102040816326531
+      }
+    },
+    {
+      "variant": "drainage_plus20",
+      "weights": {
+        "lithology": 0.24509803921568626,
+        "fault": 0.09803921568627451,
+        "drainage": 0.11764705882352941,
+        "slope": 0.09803921568627451,
+        "lineament": 0.19607843137254902,
+        "intersection": 0.19607843137254902,
+        "elevation": 0.049019607843137254
+      }
+    },
+    {
+      "variant": "slope_minus20",
+      "weights": {
+        "lithology": 0.25510204081632654,
+        "fault": 0.10204081632653061,
+        "drainage": 0.10204081632653061,
+        "slope": 0.08163265306122451,
+        "lineament": 0.20408163265306123,
+        "intersection": 0.20408163265306123,
+        "elevation": 0.05102040816326531
+      }
+    },
+    {
+      "variant": "slope_plus20",
+      "weights": {
+        "lithology": 0.24509803921568626,
+        "fault": 0.09803921568627451,
+        "drainage": 0.09803921568627451,
+        "slope": 0.11764705882352941,
+        "lineament": 0.19607843137254902,
+        "intersection": 0.19607843137254902,
+        "elevation": 0.049019607843137254
+      }
+    },
+    {
+      "variant": "lineament_minus20",
+      "weights": {
+        "lithology": 0.2604166666666667,
+        "fault": 0.10416666666666667,
+        "drainage": 0.10416666666666667,
+        "slope": 0.10416666666666667,
+        "lineament": 0.1666666666666667,
+        "intersection": 0.20833333333333334,
+        "elevation": 0.052083333333333336
+      }
+    },
+    {
+      "variant": "lineament_plus20",
+      "weights": {
+        "lithology": 0.24038461538461536,
+        "fault": 0.09615384615384616,
+        "drainage": 0.09615384615384616,
+        "slope": 0.09615384615384616,
+        "lineament": 0.23076923076923075,
+        "intersection": 0.19230769230769232,
+        "elevation": 0.04807692307692308
+      }
+    },
+    {
+      "variant": "intersection_minus20",
+      "weights": {
+        "lithology": 0.2604166666666667,
+        "fault": 0.10416666666666667,
+        "drainage": 0.10416666666666667,
+        "slope": 0.10416666666666667,
+        "lineament": 0.20833333333333334,
+        "intersection": 0.1666666666666667,
+        "elevation": 0.052083333333333336
+      }
+    },
+    {
+      "variant": "intersection_plus20",
+      "weights": {
+        "lithology": 0.24038461538461536,
+        "fault": 0.09615384615384616,
+        "drainage": 0.09615384615384616,
+        "slope": 0.09615384615384616,
+        "lineament": 0.19230769230769232,
+        "intersection": 0.23076923076923075,
+        "elevation": 0.04807692307692308
+      }
+    },
+    {
+      "variant": "elevation_minus20",
+      "weights": {
+        "lithology": 0.25252525252525254,
+        "fault": 0.10101010101010102,
+        "drainage": 0.10101010101010102,
+        "slope": 0.10101010101010102,
+        "lineament": 0.20202020202020204,
+        "intersection": 0.20202020202020204,
+        "elevation": 0.040404040404040414
+      }
+    },
+    {
+      "variant": "elevation_plus20",
+      "weights": {
+        "lithology": 0.24752475247524752,
+        "fault": 0.09900990099009901,
+        "drainage": 0.09900990099009901,
+        "slope": 0.09900990099009901,
+        "lineament": 0.19801980198019803,
+        "intersection": 0.19801980198019803,
+        "elevation": 0.0594059405940594
+      }
+    }
+  ],
+  "field_validation": false,
+  "stable_in_all_variants_percent": 78.32374923614485,
+  "any_variant_change_percent": 21.67625076385516,
+  "max_changed_class_percent": 13.792873818962411,
+  "min_changed_class_percent": 1.139515206593441
+}

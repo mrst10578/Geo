@@ -1,0 +1,64 @@
+name: Verify current GIS revision
+on:
+  push:
+    branches: [main, "revision/graphical-gis-methods"]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify public deliverables, checksums and limits
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, re, sys
+          root = pathlib.Path("revised-v2")
+          expected = {
+              "report/Asmari_Revised_Report_FA.pdf",
+              "report/Asmari_Manual_Guide_FA.pdf",
+              "model/Asmari_seven_criteria.model3",
+              "model/Asmari_weight_sensitivity.model3",
+              "model/review_status.json",
+              "model/final_verification.json",
+              "FINAL_AUDIT.md",
+              "README.md",
+          }
+          listed = set()
+          for line in (root / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
+              match = re.fullmatch(r"([a-f0-9]{64})  (.+)", line)
+              if not match: raise SystemExit(f"Malformed checksum: {line!r}")
+              digest, rel = match.groups()
+              p = pathlib.Path(rel)
+              if p.is_absolute() or ".." in p.parts or rel in listed:
+                  raise SystemExit(f"Unsafe or duplicate entry: {rel}")
+              listed.add(rel)
+              target = root / rel
+              if not target.is_file(): raise SystemExit(f"Missing: {target}")
+              if hashlib.sha256(target.read_bytes()).hexdigest() != digest:
+                  raise SystemExit(f"Checksum mismatch: {target}")
+          if not expected.issubset(listed):
+              raise SystemExit(f"Required files absent from checksum manifest: {sorted(expected-listed)}")
+          def no_duplicates(pairs):
+              obj = {}
+              for key, val in pairs:
+                  if key in obj: raise ValueError(f"Duplicate JSON key: {key}")
+                  obj[key] = val
+              return obj
+          for f in (root / "model").glob("*.json"):
+              json.loads(f.read_text(encoding="utf-8"), object_pairs_hook=no_duplicates)
+          status = json.loads((root / "model/review_status.json").read_text(encoding="utf-8"))
+          if status.get("used_D8") is not False or status.get("used_AHP") is not False:
+              raise SystemExit("Method provenance changed; review required.")
+          if status.get("independent_well_validation") is not False:
+              raise SystemExit("Scientific validation claim changed; review required.")
+          maps = sorted((root / "maps").glob("*.png"))
+          if len(maps) != 14: raise SystemExit(f"Public map count changed: {len(maps)}")
+          for f in (root / "report").glob("*.pdf"):
+              if not f.read_bytes().startswith(b"%PDF-"):
+                  raise SystemExit(f"Invalid PDF header: {f}")
+          print(f"PASS: {len(listed)} public checksums, {len(maps)} maps, JSON and method claims.")
+          PY
