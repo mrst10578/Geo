@@ -1,0 +1,131 @@
+{
+  "raster_count": 25,
+  "exact_match": true,
+  "rasters": [
+    {
+      "file": "baseline_classes.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "baseline_index.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "dem_projected.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "drainage_cells.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "drainage_distance.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "elevation.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "fault_cells.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "fault_distance.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "index_difference.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "intersection_cells.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "intersection_distance.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "lineament_cells.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "lineament_distance.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "lithology_id.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_drainage.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_elevation.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_fault.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_intersection.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_lineament.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_lithology.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "rating_slope.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "screening_classes.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "screening_index.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "slope.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "weighted_partial.tif",
+      "equal": true,
+      "max_abs_difference": 0.0
+    }
+  ]
+}

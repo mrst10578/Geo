@@ -1,14 +1,24 @@
 {
-  "status": "computationally complete exploratory seven-criterion review package",
-  "report_pages": 13,
-  "guide_pages": 6,
-  "map_count": 16,
+  "status": "completed academic exploratory GIS delivery",
+  "report_pages": 15,
+  "guide_pages": 7,
+  "map_count": 17,
+  "atlas_pages": 17,
+  "core_model_algorithms": 33,
+  "sensitivity_variants": 14,
+  "stable_in_all_weight_variants_percent": 78.32374923614485,
+  "reproduced_rasters_exactly": 25,
+  "prose_review_complete": true,
+  "editable_report_and_guide": true,
   "custom_analysis_scripts_in_delivery": false,
   "used_D8": false,
   "used_AHP": false,
   "manual_ArcGIS_execution_claimed": false,
-  "interpretation_status": "watercourses and topographic lineaments require independent review; intersections geometric only",
   "independent_well_validation": false,
   "well_location_proposed": false,
-  "quality_checks": "aligned rasters, valid coverage, nonduplicate internal intersections, geometry within mask, relocated project all valid"
+  "limitations": [
+    "interpreted watercourses and topographic lineaments lack independent field verification",
+    "map datum assumed WGS84; control fit is not independent positional accuracy",
+    "distance criteria differ from density illustrations; calculation and captions state distance consistently"
+  ]
 }

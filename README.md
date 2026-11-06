@@ -1,7 +1,11 @@
-# Geo
+# پروژه آب زیرزمینی کوه آسماری
 
-The current GIS revision is in [revised-v2](revised-v2/README.md). It includes a standard-tool graphical model, an illustrated Persian report and a GUI reproduction manual. The complete private delivery adds source data, 16 maps and open-access reference papers.
+نسخه جاری در پوشه [revised-v2](revised-v2/README.md) قرار دارد. گزارش فارسی ۱۵ صفحه‌ای، راهنمای اجرای گرافیکی ۷ صفحه‌ای، نقشه‌های موضوعی و دو مدل قابل ویرایش در این بخش نگهداری می‌شوند.
 
-The current result is an exploratory seven-criterion scenario with visually interpreted inputs and an explicit four-criterion comparison. It is not a validated groundwater-yield or drilling-location model. Review the documented uncertainty before using it.
+در این مطالعه هفت معیار با ابزارهای آماده کیوجی‌آی‌اس و جی‌دال تلفیق شده‌اند. مدل اصلی از تفسیر بصری آبراهه و خطواره استفاده می‌کند و معیارهای فاصله را محاسبه می‌کند. آزمون تغییر جداگانه وزن‌ها در ۱۴ حالت نیز همراه نتیجه است.
 
-Original scripts and outputs elsewhere in this repository are historical work and are not the current submission method. In particular, earlier automatically extracted drainage/lineaments and any proposed well location are not carried into this revision.
+پوشه‌های scripts و outputs مربوط به نسخه اولیه‌اند. استخراج‌های خودکار و نقطه چاه آن نسخه، بخشی از نتیجه جاری نیستند. برای مطالعه و تحویل، از گزارش و راهنمای revised-v2 استفاده کنید.
+
+نسخه کامل تحویلی، داده‌های ارسالی، پروژه قابل جابه‌جایی، ۱۷ نقشه، رسترهای آزمون وزن‌ها، نسخه Word متن‌ها و دو مقاله مرجع را در بر می‌گیرد. داده‌های اصلی کارفرما در این مخزن عمومی بازنشر نشده‌اند.
+
+این نتیجه، مقایسه مقدماتی شرایط مکانی است. وزن‌ها فرضی و خطوط تفسیری فاقد تأیید میدانی‌اند؛ خروجی با داده چاه اعتبارسنجی نشده و محل قطعی حفاری تعیین نمی‌کند.
