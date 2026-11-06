@@ -1,0 +1,238 @@
+{
+  "software": "3.40.6-Bratislava",
+  "analysis_crs": "EPSG:32639",
+  "cell_size_m": 30,
+  "criteria": [
+    "lithology",
+    "fault distance",
+    "slope",
+    "elevation"
+  ],
+  "weights": [
+    0.5,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "status": "Exploratory four-factor model, not a validated seven-factor result",
+  "raster_statistics": {
+    "dem_projected": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 702.8486328125,
+      "max": 1919.012939453125
+    },
+    "elevation": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 712.8599853515625,
+      "max": 1812.1866455078125
+    },
+    "fault_cells": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 1333,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "fault_distance": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 0.0,
+      "max": 5704.73486328125
+    },
+    "lithology_id": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.0,
+      "max": 7.0,
+      "counts": {
+        "1": 112245,
+        "2": 51785,
+        "3": 500,
+        "4": 23335,
+        "5": 19502,
+        "6": 14524,
+        "7": 33393
+      }
+    },
+    "rating_elevation": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.0,
+      "max": 4.0
+    },
+    "rating_fault": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 283526,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rating_lithology": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "rating_slope": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "screening_classes": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.0,
+      "max": 5.0,
+      "counts": {
+        "1": 5145,
+        "2": 57413,
+        "3": 44678,
+        "4": 99528,
+        "5": 48520
+      }
+    },
+    "screening_index": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 1.2000000476837158,
+      "max": 4.900000095367432
+    },
+    "slope": {
+      "width": 527,
+      "height": 538,
+      "transform": [
+        386880.0,
+        30.0,
+        0.0,
+        3509790.0,
+        0.0,
+        -30.0
+      ],
+      "valid_cells": 255284,
+      "min": 0.007529733702540398,
+      "max": 69.48857116699219
+    }
+  },
+  "Litologh": {
+    "features": 31,
+    "geometry_type": "Polygon",
+    "fields": [
+      "Id"
+    ]
+  },
+  "Fault": {
+    "features": 17,
+    "geometry_type": "Line String",
+    "fields": [
+      "Id"
+    ]
+  },
+  "Cadr": {
+    "features": 1,
+    "geometry_type": "Line String",
+    "fields": [
+      "Id"
+    ]
+  },
+  "mask_area_km2": 229.75781705337218
+}

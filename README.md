@@ -1,3 +1,5 @@
+> **Revision status:** The original outputs below are historical. A four-factor revision using supplied vector data and standard GIS tools is documented in [revised-v2](revised-v2/README.md). The seven-factor assignment remains unfinished; do not treat the old well coordinates as a revised result.
+
 # پتانسیل‌یابی آب زیرزمینی، محدوده کوه آسماری
 
 این مخزن خروجی یک **مطالعه دانشگاهی GIS** برای محدوده مشخص‌شده روی نقشه زمین‌شناسی کوه آسماری است. هفت معیار مکانی به‌صورت مستقل تهیه شده‌اند، سپس با مدل جمع وزنی تلفیق شده‌اند تا پهنه‌های با **پتانسیل نسبی** بیشتر مشخص شوند. یک نقطه نیز صرفاً برای نمایش روش مکان‌یابی دانشگاهی معرفی شده است.
