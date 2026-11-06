@@ -1,0 +1,72 @@
+{
+  "weights_percent": {
+    "lithology": 25,
+    "fault": 10,
+    "drainage": 10,
+    "slope": 10,
+    "lineament": 20,
+    "intersection": 20,
+    "elevation": 5
+  },
+  "score_ranges": {
+    "lithology": {
+      "min": 1,
+      "max": 5
+    },
+    "fault": {
+      "min": 2,
+      "max": 5
+    },
+    "drainage": {
+      "min": 2,
+      "max": 5
+    },
+    "slope": {
+      "min": 1,
+      "max": 5
+    },
+    "lineament": {
+      "min": 2,
+      "max": 5
+    },
+    "intersection": {
+      "min": 2,
+      "max": 5
+    },
+    "elevation": {
+      "min": 1,
+      "max": 5
+    }
+  },
+  "potential_quantile_breaks": [
+    3.200000047683716,
+    3.5,
+    3.75,
+    4.050000190734863
+  ],
+  "potential_min": 2.200000047683716,
+  "potential_max": 5.0,
+  "candidate": {
+    "utm_zone": "39N",
+    "utm_crs": "EPSG:32639",
+    "utm_easting_m": 391245.0,
+    "utm_northing_m": 3501135.0,
+    "lon": 49.8530993,
+    "lat": 31.6402744,
+    "potential_index_1_5": 4.85,
+    "relative_class": 5,
+    "elevation_m": 879.8,
+    "slope_deg": 1.97,
+    "lithology_code": "Q",
+    "distance_to_stream_m": 342,
+    "distance_to_structural_red_trace_m": 1052,
+    "lineament_distance_m": 382,
+    "lineament_intersection_distance_m": 577,
+    "status": "Academic screening point only; not a drilling authorization"
+  },
+  "drainage_threshold_cells": 125,
+  "fault_candidate_segments": 76,
+  "lineament_candidate_segments": 240,
+  "lineament_intersection_points": 147,
+  "data_quality": "Preliminary classroom map-based multi-criteria screening; no well logs, water table, pumping tests or geophysical confirmation"
+}

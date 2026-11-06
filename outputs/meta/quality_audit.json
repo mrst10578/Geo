@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "crs": "EPSG:32639",
+  "resolution_m": 30,
+  "study_area_km2": 186.538,
+  "total_output_maps": 9,
+  "report_pages": 15,
+  "atlas_pages": 9,
+  "vector_counts": {
+    "lineaments_dem_candidates": 240,
+    "drainage_streams": 55,
+    "proposed_well": 1,
+    "lithology_interpreted": 786,
+    "study_area": 1,
+    "lineament_intersections": 147,
+    "fault_traces_candidates": 76
+  },
+  "publish_manifest": [
+    {
+      "path": "requirements.txt",
+      "bytes": 264,
+      "sha256": "74a50c1e669d80688c59ccfbc0d5e64bc770c4bfcb581bea59b92df4d64b35c9"
+    },
+    {
+      "path": "run_all.sh",
+      "bytes": 402,
+      "sha256": "2718f52cec4f7d33db91dee78aa18c127ea326945455c3091c273ef5d5018c87"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 996,
+      "sha256": "e8c0493120c3c6cbf521198efe6ad25f5261ac438ce8dc0275718bf54014cfb4"
+    },
+    {
+      "path": "scripts/00_align.py",
+      "bytes": 1963,
+      "sha256": "ebc359d373e7d3ad52f72f2b654551f52d9028a8215a13ae561d797fcc117699"
+    },
+    {
+      "path": "scripts/00_fetch_assets.py",
+      "bytes": 1192,
+      "sha256": "24eb153c1cf8ac3a6f0605a747a9567efa30d66ec09d64150aa8710f2ddbd9b6"
+    },
+    {
+      "path": "scripts/01_prepare.py",
+      "bytes": 7990,
+      "sha256": "95f82723eea2f8996da19d94e9cea726f176cbee1095e7774bdf2ec2a3d488d5"
+    },
+    {
+      "path": "scripts/02_analyze.py",
+      "bytes": 13416,
+      "sha256": "933f095cf93d22fa7edcf1dcb3c803078e1e3cba0c613b13d092e53b9f5717a6"
+    },
+    {
+      "path": "scripts/03_render.py",
+      "bytes": 24846,
+      "sha256": "1de920a2c8b24be9b06f89e0470aa1d5bc2be3e4b83bcc206c986e73a314a72b"
+    },
+    {
+      "path": "scripts/04_polish_pdf.py",
+      "bytes": 20559,
+      "sha256": "a4a8ce3e2da898b9c71bc8a618e6b7d58e00a6744f7fd11de36a1da30d7447a7"
+    },
+    {
+      "path": "scripts/05_validate.py",
+      "bytes": 3523,
+      "sha256": "4953be1ea733895b7971e3448ffd74aa6bf30f8e32afd9c6acc799115e697bc3"
+    },
+    {
+      "path": "outputs/maps/01_lithology.png",
+      "bytes": 191199,
+      "sha256": "af96ac4e3a91184af20b811c31578c2496b299e4f6668d4d0e8a4f0b06ac3f62"
+    },
+    {
+      "path": "outputs/maps/02_faults.png",
+      "bytes": 787850,
+      "sha256": "7a16cc0f9f94263092897ee9abf5e39752ecd527cc5563fc1f0ec3c9b630d50d"
+    },
+    {
+      "path": "outputs/maps/03_drainage.png",
+      "bytes": 746061,
+      "sha256": "def648ec6b32a878354fef9ea9007d33e4e7430649a8f2685f099c42714a815d"
+    },
+    {
+      "path": "outputs/maps/04_slope.png",
+      "bytes": 1396468,
+      "sha256": "aced7fbb614cf4b6999a3f73fb47ddb758876a2626d3bce88c52bca76ee9b34c"
+    },
+    {
+      "path": "outputs/maps/05_lineaments.png",
+      "bytes": 927162,
+      "sha256": "2a6c9811e31c84b163e2544ccd21cd74210420d483d8b9ddf1cc83b84c7e4a2f"
+    },
+    {
+      "path": "outputs/maps/06_lineament_intersections.png",
+      "bytes": 836004,
+      "sha256": "cc6654cf17c8db5657bf69e7e172f943b93653e4b677fd6e07df301f6c49a2fb"
+    },
+    {
+      "path": "outputs/maps/07_elevation.png",
+      "bytes": 734198,
+      "sha256": "27236a20a281ccf78e9d79cfd175c6df46442cdd1d4657c8b80bfdb81c718dd1"
+    },
+    {
+      "path": "outputs/maps/08_final_potential_and_well.png",
+      "bytes": 205310,
+      "sha256": "b0e947e91604cefde25cdfeebf6754697576cf76bd823f1b32381675664221c8"
+    },
+    {
+      "path": "outputs/maps/09_well_candidate_detail.png",
+      "bytes": 148320,
+      "sha256": "4a3bfca98f53c66a3da406d8ab781f87bd24acb65e500d2edffc68de7b89c4e7"
+    },
+    {
+      "path": "outputs/maps/00_overview.jpg",
+      "bytes": 487453,
+      "sha256": "69376e68f6e54cc9d3c334483e46f1c3fbad8202833765d43443f8688faade39"
+    },
+    {
+      "path": "outputs/rasters/dem_elevation.tif",
+      "bytes": 623296,
+      "sha256": "8ccfce6ab65452ca132f636c0bad892937c4cf7797afd5ad10117548ad591082"
+    },
+    {
+      "path": "outputs/rasters/distance_fault_m.tif",
+      "bytes": 276409,
+      "sha256": "70e4336283c1aa2d23a9ffb03ddb38d99460a6aef9f0adc1fd7c627862322e32"
+    },
+    {
+      "path": "outputs/rasters/distance_intersection_m.tif",
+      "bytes": 312835,
+      "sha256": "fb8578461f2bd4d2a9b36234b7522f7d01dae513e3315038a7c27229f1f7e2c1"
+    },
+    {
+      "path": "outputs/rasters/distance_lineament_m.tif",
+      "bytes": 190976,
+      "sha256": "70e125d20943fe1eaf994445939fec306f614cef53c35333fc3c744490acd3ab"
+    },
+    {
+      "path": "outputs/rasters/distance_stream_m.tif",
+      "bytes": 164815,
+      "sha256": "6cba3206176bb6c284d29b1ed8068775d5183e2a23d5584c038a008134a7d2fa"
+    },
+    {
+      "path": "outputs/rasters/drainage_network.tif",
+      "bytes": 2071,
+      "sha256": "717838ca9d727b44bb57b0f7dfc4819d993cc4821ce9cb4b178ba42eb5ae0de6"
+    },
+    {
+      "path": "outputs/rasters/fault_trace_candidates.tif",
+      "bytes": 2860,
+      "sha256": "e8674794a29792fd966c34cc1dc7cb93be52587356118557dc308fe9c8ea2f27"
+    },
+    {
+      "path": "outputs/rasters/flow_accumulation_cells.tif",
+      "bytes": 178303,
+      "sha256": "37f0a740bd1115b814d500394072d291b2ebcc1bd6d303c2176cf2838c398a06"
+    },
+    {
+      "path": "outputs/rasters/groundwater_potential_5classes.tif",
+      "bytes": 33103,
+      "sha256": "e00090ff184f763cc5763455f4f93c3e6a4ecb82bdade0ca4dc04d3b32b1d92c"
+    },
+    {
+      "path": "outputs/rasters/groundwater_potential_index.tif",
+      "bytes": 105775,
+      "sha256": "8fb005d043d7a780a50641c0ee898ac49ca82437d227fc8d34867b8e171ff2a3"
+    },
+    {
+      "path": "outputs/rasters/intersection_points.tif",
+      "bytes": 1620,
+      "sha256": "276dc00e836e075ce33a5911944042997b62ce130a8789e5d0e314ebe8e33eb7"
+    },
+    {
+      "path": "outputs/rasters/lineaments_dem.tif",
+      "bytes": 8249,
+      "sha256": "2be5fe1b4e2eb4fb8cdd26357cae03634f249accb617f13662fba7bd14cfa786"
+    },
+    {
+      "path": "outputs/rasters/lithology_classes.tif",
+      "bytes": 27344,
+      "sha256": "eaafce79e8e7c1bf719eaa378d8782ca209f358a8106a3c7e192df6e7c197e3f"
+    },
+    {
+      "path": "outputs/rasters/lithology_rating.tif",
+      "bytes": 23083,
+      "sha256": "e495f44e27e613ba52ffafc125578de86abe9448896cbf79ca9e531f6df3e061"
+    },
+    {
+      "path": "outputs/rasters/rating_drainage.tif",
+      "bytes": 8468,
+      "sha256": "ebb1a39769577cc69dafcdf7d784d44fea6dfdb681ddd1adeab67468e8216706"
+    },
+    {
+      "path": "outputs/rasters/rating_elevation.tif",
+      "bytes": 11570,
+      "sha256": "9707518e8819141235112608009bad03bfbfad5a9bfe079647db325062ba0237"
+    },
+    {
+      "path": "outputs/rasters/rating_fault.tif",
+      "bytes": 8078,
+      "sha256": "d0065a66613328f8b75b6a342cabac5119e43def28074786df7290a792baf00a"
+    },
+    {
+      "path": "outputs/rasters/rating_intersection.tif",
+      "bytes": 7284,
+      "sha256": "a6b2755a7397c0b652795029787233bf30531dc7e161515c131360b5d631d252"
+    },
+    {
+      "path": "outputs/rasters/rating_lineament.tif",
+      "bytes": 9963,
+      "sha256": "d03d803e133cbc946c3b4792dbd37b23cdf58c64e19ba57d74377bea4b15c856"
+    },
+    {
+      "path": "outputs/rasters/rating_lithology.tif",
+      "bytes": 19283,
+      "sha256": "84c7178f407c70e82024dfa1d86359941853c4b031883207e7e3f9aa0e8a29ef"
+    },
+    {
+      "path": "outputs/rasters/rating_slope.tif",
+      "bytes": 31579,
+      "sha256": "980c43a638366b05d623338015c82f9826de3ab2ca97cc8bbff2e95e490537cb"
+    },
+    {
+      "path": "outputs/rasters/slope_deg.tif",
+      "bytes": 755182,
+      "sha256": "4ed7ecfe0725af0822814d75f2988d9be10321fe9e954b82c549f86736e3afff"
+    },
+    {
+      "path": "outputs/rasters/study_area_mask.tif",
+      "bytes": 2522,
+      "sha256": "5aacb2f1333c2cfcfcc77fec9373e3fca4d7791461f1aa87d856b8f0b7aa96fe"
+    },
+    {
+      "path": "outputs/vectors/drainage_streams.geojson",
+      "bytes": 30224,
+      "sha256": "f41fe7d6efc205a3d86a8e7179d824b0051960c6eaae51988d43fb45b39609e3"
+    },
+    {
+      "path": "outputs/vectors/fault_traces_candidates.geojson",
+      "bytes": 23914,
+      "sha256": "56c8d3bccb9016371c1928b248a727b633766b0c97303d1caa9039f493e50741"
+    },
+    {
+      "path": "outputs/vectors/lineament_intersections.geojson",
+      "bytes": 30046,
+      "sha256": "85a3ebfd40ccc80f7c70f5125089cc20e05b9e36374d6dca3ec48832a71229e1"
+    },
+    {
+      "path": "outputs/vectors/lineaments_dem_candidates.geojson",
+      "bytes": 67020,
+      "sha256": "273de5a5ad88f0a1eecce054d5efb07bd13100d3e0fedaac716b3a154a345b16"
+    },
+    {
+      "path": "outputs/vectors/lithology_interpreted.geojson",
+      "bytes": 986462,
+      "sha256": "74badf2868c0336108e4b12d033570c61ecdaf1da0998354e06cc1bb1ac3e1ed"
+    },
+    {
+      "path": "outputs/vectors/proposed_well.geojson",
+      "bytes": 636,
+      "sha256": "3f39584154df647f72cd42c198321dddaf5fc557279dee6d90491e784366dccc"
+    },
+    {
+      "path": "outputs/vectors/study_area.geojson",
+      "bytes": 419,
+      "sha256": "a509e21b92d9a4a7d1139e8327bb7b95260ad03031eef49b48b042cf4205373a"
+    },
+    {
+      "path": "outputs/meta/analysis_results.json",
+      "bytes": 1600,
+      "sha256": "895778afa50bbc36809c40d564e77aae241fe8411fd14cadd9fc1cf607b88063"
+    },
+    {
+      "path": "outputs/meta/study_metadata.json",
+      "bytes": 4141,
+      "sha256": "b3360ec9a231ef79958968f564686eac876c079a8c8eaa19878d368d400c0f7e"
+    },
+    {
+      "path": "outputs/report/Geo_University_Report_FA.pdf",
+      "bytes": 6281841,
+      "sha256": "d80de1391c39171805010636e9baf8770cb1f43545cc4b3bee56f55b8570dd43"
+    },
+    {
+      "path": "outputs/report/Geo_Maps_Atlas_FA.pdf",
+      "bytes": 6227002,
+      "sha256": "b1a3d9329c11290558d9e36fed24dcc13bd088763b9452e7bce388e74948bf24"
+    }
+  ],
+  "disclaimer": "Provisional classroom modeling; visually validate map interpretation and control points."
+}

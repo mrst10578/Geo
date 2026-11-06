@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-06",
+  "map_source": "Kuh-e Asmari, Iranian Oil Operating Companies, Geological Compilation Map, 1:100,000, 1966, sheet 20825 E",
+  "dem_source": "Mapzen Skadi elevation-tiles-prod SRTM-derived HGT, N31E049, approximate 30 m",
+  "analysis_crs": "EPSG:32639",
+  "dem_resolution_m": 30,
+  "grid_height": 578,
+  "grid_width": 612,
+  "roi_area_km2": 186.538,
+  "full_map_pixel_control_points": {
+    "lon_left": 49.5,
+    "lon_right": 50.0,
+    "lat_top": 32.0,
+    "lat_bottom": 31.5,
+    "left_px": 550.0,
+    "right_px": 4260.0,
+    "top_px": 440.0,
+    "bottom_px": 4780.0
+  },
+  "image_matching": {
+    "H_crop_to_full": [
+      [
+        1.1725410427060152,
+        0.001025750820067202,
+        2774.651063640013
+      ],
+      [
+        0.012521506716413004,
+        1.168238213149824,
+        3006.9808709188396
+      ],
+      [
+        2.437291740264782e-06,
+        -4.6286331679216773e-07,
+        1.0
+      ]
+    ],
+    "corners_full_px": [
+      [
+        2890.136962890625,
+        3057.77783203125
+      ],
+      [
+        4003.8359375,
+        3062.621337890625
+      ],
+      [
+        4006.3583984375,
+        4087.3759765625
+      ],
+      [
+        2892.21240234375,
+        4084.923583984375
+      ]
+    ]
+  },
+  "roi_polygon_lon_lat": [
+    [
+      49.81538391113281,
+      31.69841194152832
+    ],
+    [
+      49.965476989746094,
+      31.69785499572754
+    ],
+    [
+      49.965816497802734,
+      31.579795837402344
+    ],
+    [
+      49.8156623840332,
+      31.580078125
+    ]
+  ],
+  "roi_bbox_lon_lat": [
+    49.81538391113281,
+    31.579795837402344,
+    49.965816497802734,
+    31.69841194152832
+  ],
+  "lithology_classes": [
+    {
+      "id": 1,
+      "code": "Q",
+      "name_fa": "آبرفت و نهشته‌های جوان",
+      "rgb": [
+        250,
+        250,
+        249
+      ],
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "code": "Tk",
+      "name_fa": "کنگلومرای جوان توکک",
+      "rgb": [
+        253,
+        252,
+        218
+      ],
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "code": "Bk",
+      "name_fa": "سازند بختیاری",
+      "rgb": [
+        255,
+        244,
+        103
+      ],
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "code": "Aj",
+      "name_fa": "عضو لهبری از سازند آغاجاری",
+      "rgb": [
+        245,
+        152,
+        89
+      ],
+      "rating": 2
+    },
+    {
+      "id": 5,
+      "code": "Mn",
+      "name_fa": "سازند میشان",
+      "rgb": [
+        217,
+        156,
+        194
+      ],
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "code": "Gs",
+      "name_fa": "سازند گچساران",
+      "rgb": [
+        224,
+        202,
+        181
+      ],
+      "rating": 1
+    },
+    {
+      "id": 7,
+      "code": "As",
+      "name_fa": "سازند آسماری",
+      "rgb": [
+        161,
+        173,
+        70
+      ],
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "code": "Pd",
+      "name_fa": "سازند پابده",
+      "rgb": [
+        199,
+        218,
+        172
+      ],
+      "rating": 2
+    },
+    {
+      "id": 9,
+      "code": "Gu",
+      "name_fa": "سازند گورپی",
+      "rgb": [
+        231,
+        250,
+        251
+      ],
+      "rating": 2
+    },
+    {
+      "id": 10,
+      "code": "Il-Sv",
+      "name_fa": "سازندهای ایلام و سروک",
+      "rgb": [
+        137,
+        205,
+        248
+      ],
+      "rating": 3
+    },
+    {
+      "id": 11,
+      "code": "Kz",
+      "name_fa": "سازند کژدمی",
+      "rgb": [
+        92,
+        163,
+        218
+      ],
+      "rating": 2
+    },
+    {
+      "id": 12,
+      "code": "Dr-Fa",
+      "name_fa": "سازندهای داریان و فهلیان",
+      "rgb": [
+        166,
+        136,
+        190
+      ],
+      "rating": 3
+    }
+  ],
+  "limitations": [
+    "Map scan tied to printed graticule approximately, not surveyed GCPs.",
+    "Rock units automatically classified from scanned map colors; check against original legend before formal use.",
+    "DEM/lineament and faults do not validate aquifer productivity or drilling depth."
+  ]
+}

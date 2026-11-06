@@ -1,0 +1,16 @@
+.venv/
+.fonts/
+__pycache__/
+*.pyc
+data/source/*
+!data/source/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+*.log
+pdf_page_*.png
+*_preview.jpg
+alignment.json
+match_H.txt
+outputs/report/report_source.html
+outputs/report/atlas_source.html
+outputs/rasters/geological_scan_rgb.tif
